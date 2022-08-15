@@ -366,3 +366,194 @@
 2022-08-15 17:28:54,666 [INFO]  * Restarting with stat
 2022-08-15 17:28:55,349 [WARNING]  * Debugger is active!
 2022-08-15 17:28:55,357 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 19:03:00,000 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 19:03:00,000 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 19:03:00,016 [INFO]  * Restarting with stat
+2022-08-15 19:03:00,608 [WARNING]  * Debugger is active!
+2022-08-15 19:03:00,608 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 19:03:09,857 [INFO] Request  for a list of posts
+2022-08-15 19:03:10,028 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:10] "GET /api/posts HTTP/1.1" 200 -
+2022-08-15 19:03:14,526 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:14] "GET / HTTP/1.1" 200 -
+2022-08-15 19:03:14,856 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:03:14,857 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:03:14,858 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:03:17,421 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:17] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-15 19:03:17,482 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:03:17,484 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:03:17,510 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:03:43,041 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:43] "GET / HTTP/1.1" 200 -
+2022-08-15 19:03:43,093 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:03:43,094 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:43] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:03:43,139 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:43] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:03:48,300 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:48] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-15 19:03:48,357 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:48] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:03:48,366 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:48] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:03:48,402 [INFO] 127.0.0.1 - - [15/Aug/2022 19:03:48] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:29,895 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 19:33:29,895 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 19:33:29,900 [INFO]  * Restarting with stat
+2022-08-15 19:33:30,496 [WARNING]  * Debugger is active!
+2022-08-15 19:33:30,504 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 19:33:34,238 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:34] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-15 19:33:34,277 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:34,358 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:34,362 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:36,398 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:36] "GET / HTTP/1.1" 200 -
+2022-08-15 19:33:36,438 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:36,442 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:36,494 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:40,073 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:40] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-15 19:33:40,127 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:40,131 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:40,153 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:45,388 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:45] "GET /users/leo HTTP/1.1" 200 -
+2022-08-15 19:33:45,464 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:45,468 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:45,507 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:48,669 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:48] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-15 19:33:48,704 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:48] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:48,708 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:48] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:48,748 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:48] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:50,177 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:50] "GET / HTTP/1.1" 200 -
+2022-08-15 19:33:50,219 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:50,220 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:50] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:50,264 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:50] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:51,259 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:51] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-15 19:33:51,302 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:51,304 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:51,364 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:52,672 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:52] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-15 19:33:52,709 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:52,710 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:52,762 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:57,274 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:57] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-15 19:33:57,312 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:57] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:57,313 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:57] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:57,357 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:57] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:58,437 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:58] "GET / HTTP/1.1" 200 -
+2022-08-15 19:33:58,478 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:58] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:33:58,483 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:58] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:33:58,529 [INFO] 127.0.0.1 - - [15/Aug/2022 19:33:58] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:37:36,022 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 19:37:36,022 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 19:37:36,028 [INFO]  * Restarting with stat
+2022-08-15 19:37:36,595 [WARNING]  * Debugger is active!
+2022-08-15 19:37:36,602 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 19:38:01,786 [INFO] 127.0.0.1 - - [15/Aug/2022 19:38:01] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-15 19:38:01,819 [INFO] 127.0.0.1 - - [15/Aug/2022 19:38:01] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:38:01,820 [INFO] 127.0.0.1 - - [15/Aug/2022 19:38:01] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:38:01,856 [INFO] 127.0.0.1 - - [15/Aug/2022 19:38:01] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:40:03,349 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\main\\views.py', reloading
+2022-08-15 19:40:03,499 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\main\\views.py', reloading
+2022-08-15 19:40:03,544 [INFO]  * Restarting with stat
+2022-08-15 19:40:06,893 [INFO]  * Restarting with stat
+2022-08-15 19:56:28,201 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 19:56:28,201 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 19:56:28,205 [INFO]  * Restarting with stat
+2022-08-15 19:56:28,738 [WARNING]  * Debugger is active!
+2022-08-15 19:56:28,745 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 19:56:34,168 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:34] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-15 19:56:34,199 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:56:34,200 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:56:34,259 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:56:38,409 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:38] "GET /users/leo HTTP/1.1" 200 -
+2022-08-15 19:56:38,441 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:56:38,491 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 19:56:38,493 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:56:40,881 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:40] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-15 19:56:40,922 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 19:56:40,925 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 19:56:40,969 [INFO] 127.0.0.1 - - [15/Aug/2022 19:56:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:00:03,853 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 20:00:03,854 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 20:00:03,858 [INFO]  * Restarting with stat
+2022-08-15 20:00:04,407 [WARNING]  * Debugger is active!
+2022-08-15 20:00:04,415 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 20:00:09,497 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:09] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-15 20:00:09,525 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:00:09,527 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:00:09,599 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:00:53,067 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 20:00:53,068 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 20:00:53,072 [INFO]  * Restarting with stat
+2022-08-15 20:00:53,636 [WARNING]  * Debugger is active!
+2022-08-15 20:00:53,643 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 20:00:55,944 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:55] "[35m[1mGET /posts/5 HTTP/1.1[0m" 500 -
+2022-08-15 20:00:56,052 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:56] "GET /posts/5?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-08-15 20:00:56,060 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:56] "GET /posts/5?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-08-15 20:00:56,290 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:56] "GET /posts/5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-08-15 20:00:56,398 [INFO] 127.0.0.1 - - [15/Aug/2022 20:00:56] "[36mGET /posts/5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-15 20:02:43,477 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 20:02:43,477 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 20:02:43,482 [INFO]  * Restarting with stat
+2022-08-15 20:02:44,013 [WARNING]  * Debugger is active!
+2022-08-15 20:02:44,020 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 20:02:47,012 [INFO] 127.0.0.1 - - [15/Aug/2022 20:02:47] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-15 20:02:47,047 [INFO] 127.0.0.1 - - [15/Aug/2022 20:02:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:02:47,101 [INFO] 127.0.0.1 - - [15/Aug/2022 20:02:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:02:47,103 [INFO] 127.0.0.1 - - [15/Aug/2022 20:02:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:04:03,853 [INFO] 127.0.0.1 - - [15/Aug/2022 20:04:03] "[33mGET /tag/ HTTP/1.1[0m" 404 -
+2022-08-15 20:05:47,305 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\main\\views.py', reloading
+2022-08-15 20:05:47,359 [INFO]  * Restarting with stat
+2022-08-15 20:05:48,085 [WARNING]  * Debugger is active!
+2022-08-15 20:05:48,093 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 20:05:54,046 [INFO] 127.0.0.1 - - [15/Aug/2022 20:05:54] "[33mGET /tag/ HTTP/1.1[0m" 404 -
+2022-08-15 20:05:55,821 [INFO] 127.0.0.1 - - [15/Aug/2022 20:05:55] "[33mGET /tag/ HTTP/1.1[0m" 404 -
+2022-08-15 20:06:59,886 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-15 20:06:59,886 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-15 20:06:59,890 [INFO]  * Restarting with stat
+2022-08-15 20:07:00,425 [WARNING]  * Debugger is active!
+2022-08-15 20:07:00,433 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 20:07:09,824 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:09] "[33mGET /tag/ HTTP/1.1[0m" 404 -
+2022-08-15 20:07:11,310 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:11] "[33mGET /tag/ HTTP/1.1[0m" 404 -
+2022-08-15 20:07:15,965 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:15] "[33mGET /tag/ HTTP/1.1[0m" 404 -
+2022-08-15 20:07:18,667 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:18] "GET / HTTP/1.1" 200 -
+2022-08-15 20:07:18,698 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:07:18,700 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:07:18,764 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:07:41,775 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:41] "GET /search?s=выв HTTP/1.1" 200 -
+2022-08-15 20:07:42,013 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:07:51,893 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:51] "GET /search?s=%23кот HTTP/1.1" 200 -
+2022-08-15 20:07:51,930 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:07:51,931 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:07:51,968 [INFO] 127.0.0.1 - - [15/Aug/2022 20:07:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:08:05,179 [INFO] 127.0.0.1 - - [15/Aug/2022 20:08:05] "[33mGET /tag.html HTTP/1.1[0m" 404 -
+2022-08-15 20:08:51,694 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\main\\views.py', reloading
+2022-08-15 20:08:51,750 [INFO]  * Restarting with stat
+2022-08-15 20:08:52,443 [WARNING]  * Debugger is active!
+2022-08-15 20:08:52,452 [INFO]  * Debugger PIN: 119-144-646
+2022-08-15 20:09:59,077 [INFO] 127.0.0.1 - - [15/Aug/2022 20:09:59] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+2022-08-15 20:10:04,580 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:04] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+2022-08-15 20:10:07,780 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:07] "GET /users/leo HTTP/1.1" 200 -
+2022-08-15 20:10:07,813 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:10:07,871 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:07,873 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:13,747 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:13] "GET /users/leo HTTP/1.1" 200 -
+2022-08-15 20:10:13,787 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:10:13,788 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:13,829 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:15,045 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:15] "GET /users/leo HTTP/1.1" 200 -
+2022-08-15 20:10:15,083 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:10:15,084 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:15,135 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:18,702 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:18] "GET / HTTP/1.1" 200 -
+2022-08-15 20:10:18,742 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:10:18,745 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:18,803 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:23,356 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:23] "GET /search?s=кот HTTP/1.1" 200 -
+2022-08-15 20:10:23,427 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:23] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:10:23,431 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:23] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:23,462 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:23] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:27,284 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:27] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+2022-08-15 20:10:29,428 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:29] "GET /users/leo HTTP/1.1" 200 -
+2022-08-15 20:10:29,474 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-15 20:10:29,475 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-15 20:10:29,539 [INFO] 127.0.0.1 - - [15/Aug/2022 20:10:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -

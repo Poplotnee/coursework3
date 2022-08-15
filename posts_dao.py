@@ -48,3 +48,11 @@ class PostsDAO:
             if is_there_such_a_post == False:
                 raise ValueError('Нет такого поста')
             return list_comments_by_post_id
+
+    def get_by_tag(self, tag: str) -> list:
+        '''Получает тэг, возвращает лист постов с таким же тэгом'''
+        for post in self.get_all():
+            tag_post_list = []
+            if tag in post['content']:
+                tag_post_list.append(post)
+            return tag_post_list

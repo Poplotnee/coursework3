@@ -31,3 +31,8 @@ def search_page():
 def get_post_by_user(user_name):
     posts = posts_dao_main.get_by_user(user_name)
     return render_template('user-feed.html', user_name=user_name, posts=posts)
+
+@main_blueprint.route('/tag/<tag_name>')
+def get_post_by_tag(tag_name):
+    posts = posts_dao_main.get_by_tag(tag_name)
+    return render_template('tag.html', key_search=tag_name, posts=posts)
