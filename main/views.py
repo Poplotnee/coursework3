@@ -1,11 +1,10 @@
 from flask import Blueprint, render_template, request
-import logging
-from posts_dao import PostsDAO
+from DAO.posts_dao import PostsDAO
+from constanse import PATH_POSTS_MAIN, PATH_COMMENTS_MAIN
 
 main_blueprint = Blueprint('main_blueprint', __name__, template_folder='templates')
 
-posts_dao_main = PostsDAO()
-
+posts_dao_main = PostsDAO(PATH_POSTS_MAIN, PATH_COMMENTS_MAIN)
 
 @main_blueprint.route('/')
 def main_page():
@@ -17,6 +16,7 @@ def main_page():
 def get_post_by_id(post_pk):
     post = posts_dao_main.get_by_pk(post_pk)
     comments = posts_dao_main.get_comments_by_post_id(post_pk)
+    print(post)
     return render_template('post.html', post=post, comments=comments)
 
 
@@ -35,4 +35,4 @@ def get_post_by_user(user_name):
 @main_blueprint.route('/tag/<tag_name>')
 def get_post_by_tag(tag_name):
     posts = posts_dao_main.get_by_tag(tag_name)
-    return render_template('tag.html', key_search=tag_name, posts=posts)
+    return render_template('tag.html', tag_name=tag_name, posts=posts)

@@ -2,10 +2,13 @@ from flask import json
 
 
 class PostsDAO:
+    def __init__(self, path_posts, path_comments):
+        self.path_posts = path_posts
+        self.path_comments = path_comments
 
     def get_all(self) -> list:
         '''Возвращает все посты'''
-        with open(r'C:\Users\Евгений\PycharmProjects\coursework2_source\data\data.json', 'r', encoding='utf-8') as file:
+        with open(self.path_posts, 'r', encoding='utf-8') as file:
             data = json.load(file)
             return data
 
@@ -37,7 +40,7 @@ class PostsDAO:
 
     def get_comments_by_post_id(self, post_id: int) -> list:
         '''Получает номер в виде целого числа, возвращает коментарии под этим номером'''
-        with open('data/comments.json', 'r', encoding='utf-8') as file:
+        with open(self.path_comments, 'r', encoding='utf-8') as file:
             comments_list = json.load(file)
             list_comments_by_post_id = []
             is_there_such_a_post = False
