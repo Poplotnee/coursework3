@@ -1,10 +1,11 @@
 from flask import Blueprint, render_template, request
-from DAO.posts_dao import PostsDAO
-from constanse import PATH_POSTS_MAIN, PATH_COMMENTS_MAIN
+from posts_dao import PostsDAO
+from constanse import PATH_POSTS, PATH_COMMENTS
 
 main_blueprint = Blueprint('main_blueprint', __name__, template_folder='templates')
 
-posts_dao_main = PostsDAO(PATH_POSTS_MAIN, PATH_COMMENTS_MAIN)
+posts_dao_main = PostsDAO(PATH_POSTS, PATH_COMMENTS)
+
 
 @main_blueprint.route('/')
 def main_page():
@@ -16,7 +17,6 @@ def main_page():
 def get_post_by_id(post_pk):
     post = posts_dao_main.get_by_pk(post_pk)
     comments = posts_dao_main.get_comments_by_post_id(post_pk)
-    print(post)
     return render_template('post.html', post=post, comments=comments)
 
 
@@ -31,6 +31,7 @@ def search_page():
 def get_post_by_user(user_name):
     posts = posts_dao_main.get_by_user(user_name)
     return render_template('user-feed.html', user_name=user_name, posts=posts)
+
 
 @main_blueprint.route('/tag/<tag_name>')
 def get_post_by_tag(tag_name):

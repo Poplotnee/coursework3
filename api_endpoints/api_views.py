@@ -1,11 +1,10 @@
-from flask import Blueprint, jsonify, json
-from DAO.posts_dao import PostsDAO
+from flask import Blueprint, jsonify
+from posts_dao import PostsDAO
 import logging
 
+from constanse import PATH_POSTS, PATH_COMMENTS
 
-from constanse import PATH_POSTS_API, PATH_COMMENTS_API
-
-posts_dao_api = PostsDAO(PATH_POSTS_API, PATH_COMMENTS_API)
+posts_dao_api = PostsDAO(PATH_POSTS, PATH_COMMENTS)
 
 api_blueprint = Blueprint('api_blueprint', __name__)
 

@@ -1,13 +1,13 @@
-from DAO.posts_dao import PostsDAO
+from constanse import PATH_POSTS, PATH_COMMENTS
+from posts_dao import PostsDAO
 
 import pytest
-
-from constanse import PATH_POSTS_TEST, PATH_COMMENTS_TEST
 
 
 @pytest.fixture()
 def posts_dao():
-    posts_dao_instance = PostsDAO(PATH_POSTS_TEST, PATH_COMMENTS_TEST)
+    posts_dao_instance = PostsDAO(PATH_POSTS, PATH_COMMENTS)
+    print(posts_dao_instance)
     return posts_dao_instance
 
 

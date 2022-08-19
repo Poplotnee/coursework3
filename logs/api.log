@@ -2116,3 +2116,445 @@ FileNotFoundError: [Errno 2] No such file or directory: '.\\data\\data.json'
 2022-08-17 19:24:07,614 [INFO]  * Restarting with stat
 2022-08-17 19:24:08,162 [WARNING]  * Debugger is active!
 2022-08-17 19:24:08,169 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:38:00,135 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-17 19:38:00,135 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-17 19:38:00,135 [INFO]  * Restarting with stat
+2022-08-17 19:38:00,681 [WARNING]  * Debugger is active!
+2022-08-17 19:38:00,681 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:42:30,494 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+2022-08-17 19:42:30,541 [INFO]  * Restarting with stat
+2022-08-17 19:42:31,446 [WARNING]  * Debugger is active!
+2022-08-17 19:42:31,446 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:42:45,768 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-17 19:42:45,768 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-17 19:42:45,768 [INFO]  * Restarting with stat
+2022-08-17 19:42:46,298 [WARNING]  * Debugger is active!
+2022-08-17 19:42:46,314 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:43:10,462 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:10] "GET /users/leo HTTP/1.1" 200 -
+2022-08-17 19:43:10,500 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-17 19:43:10,568 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-17 19:43:10,572 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-17 19:43:11,844 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:11] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-17 19:43:11,882 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-17 19:43:11,883 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-17 19:43:11,938 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-17 19:43:12,879 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:12] "GET /users/leo HTTP/1.1" 200 -
+2022-08-17 19:43:12,931 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-17 19:43:12,932 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-17 19:43:12,990 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-17 19:43:14,504 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:14] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-17 19:43:14,542 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-17 19:43:14,542 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-17 19:43:14,589 [INFO] 127.0.0.1 - - [17/Aug/2022 19:43:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-17 19:44:47,499 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\error_handler\\handlers.py', reloading
+2022-08-17 19:44:47,561 [INFO]  * Restarting with stat
+2022-08-17 19:48:22,620 [INFO] Request  for a list of posts
+2022-08-17 19:48:22,620 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\api_endpoints\api_views.py", line 16, in get_api_posts
+    result = posts_dao_api.get_all()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\DAO\posts_dao.py", line 11, in get_all
+    with open(self.path_posts, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '.\\data\\data.json'
+2022-08-17 19:48:48,133 [INFO] Request  for a list of posts
+2022-08-17 19:48:48,133 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\api_endpoints\api_views.py", line 16, in get_api_posts
+    result = posts_dao_api.get_all()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\DAO\posts_dao.py", line 11, in get_all
+    with open(self.path_posts, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '.\\data\\data.json'
+2022-08-17 19:49:48,889 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-17 19:49:48,889 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-17 19:49:48,889 [INFO]  * Restarting with stat
+2022-08-17 19:49:49,395 [WARNING]  * Debugger is active!
+2022-08-17 19:49:49,410 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:49:50,481 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\app.py', reloading
+2022-08-17 19:49:50,533 [INFO]  * Restarting with stat
+2022-08-17 19:49:51,177 [WARNING]  * Debugger is active!
+2022-08-17 19:49:51,187 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:49:51,262 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:51] "GET /users/leo HTTP/1.1" 200 -
+2022-08-17 19:49:51,324 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-17 19:49:51,339 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-17 19:49:51,379 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-17 19:49:52,428 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:52] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-17 19:49:52,483 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-17 19:49:52,498 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-17 19:49:52,521 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-17 19:49:58,701 [INFO] Request for post id: 1
+2022-08-17 19:49:58,702 [INFO] 127.0.0.1 - - [17/Aug/2022 19:49:58] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-17 19:50:22,798 [INFO] Request  for a list of posts
+2022-08-17 19:50:22,798 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\api_endpoints\api_views.py", line 16, in get_api_posts
+    result = posts_dao_api.get_all()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\DAO\posts_dao.py", line 11, in get_all
+    with open(self.path_posts, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '.\\data\\data.json'
+2022-08-17 19:50:23,001 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\app.py', reloading
+2022-08-17 19:50:23,048 [INFO]  * Restarting with stat
+2022-08-17 19:50:23,563 [WARNING]  * Debugger is active!
+2022-08-17 19:50:23,578 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:50:26,223 [INFO] Request for post id: 1
+2022-08-17 19:50:26,225 [INFO] 127.0.0.1 - - [17/Aug/2022 19:50:26] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-17 19:50:27,341 [INFO] Request for post id: 1
+2022-08-17 19:50:27,342 [INFO] 127.0.0.1 - - [17/Aug/2022 19:50:27] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-17 19:50:42,033 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\app.py', reloading
+2022-08-17 19:50:42,100 [INFO]  * Restarting with stat
+2022-08-17 19:57:03,988 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-17 19:57:03,988 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-17 19:57:03,992 [INFO]  * Restarting with stat
+2022-08-17 19:57:04,490 [WARNING]  * Debugger is active!
+2022-08-17 19:57:04,497 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 19:57:08,303 [INFO] Request for post id: 1
+2022-08-17 19:57:08,305 [INFO] 127.0.0.1 - - [17/Aug/2022 19:57:08] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-17 20:07:06,723 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+2022-08-17 20:07:06,781 [INFO]  * Restarting with stat
+2022-08-17 20:07:07,380 [WARNING]  * Debugger is active!
+2022-08-17 20:07:07,390 [INFO]  * Debugger PIN: 119-144-646
+2022-08-17 20:07:43,323 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+2022-08-17 20:07:43,370 [INFO]  * Restarting with stat
+2022-08-17 20:07:43,994 [WARNING]  * Debugger is active!
+2022-08-17 20:07:43,994 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:10:17,786 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-18 19:10:17,786 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-18 19:10:17,786 [INFO]  * Restarting with stat
+2022-08-18 19:10:18,332 [WARNING]  * Debugger is active!
+2022-08-18 19:10:18,332 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:10:22,974 [INFO] Request for post id: 1
+2022-08-18 19:10:22,976 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:22] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-18 19:10:28,168 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-08-18 19:10:36,333 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:36] "GET / HTTP/1.1" 200 -
+2022-08-18 19:10:36,398 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-18 19:10:36,399 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:36,482 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:38,027 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:38] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-18 19:10:38,063 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-18 19:10:38,066 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:38,128 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:40,138 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:40] "GET /users/leo HTTP/1.1" 200 -
+2022-08-18 19:10:40,170 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-18 19:10:40,175 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:40,213 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:41,309 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:41] "GET /users/leo HTTP/1.1" 200 -
+2022-08-18 19:10:41,362 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-18 19:10:41,364 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:41] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:41,409 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:43,619 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:43] "GET /users/leo HTTP/1.1" 200 -
+2022-08-18 19:10:43,652 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-18 19:10:43,653 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:43] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:43,710 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:43] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:44,674 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:44] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-18 19:10:44,720 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-18 19:10:44,724 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:44] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-18 19:10:44,785 [INFO] 127.0.0.1 - - [18/Aug/2022 19:10:44] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-18 19:16:34,877 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\posts_dao_test.py', reloading
+2022-08-18 19:16:34,944 [INFO]  * Restarting with stat
+2022-08-18 19:16:35,575 [WARNING]  * Debugger is active!
+2022-08-18 19:16:35,583 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:17:48,265 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+2022-08-18 19:17:48,343 [INFO]  * Restarting with stat
+2022-08-18 19:17:48,940 [WARNING]  * Debugger is active!
+2022-08-18 19:17:48,948 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:18:49,360 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+2022-08-18 19:18:49,419 [INFO]  * Restarting with stat
+2022-08-18 19:18:50,036 [WARNING]  * Debugger is active!
+2022-08-18 19:18:50,046 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:22:22,845 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\posts_dao_test.py', reloading
+2022-08-18 19:22:22,907 [INFO]  * Restarting with stat
+2022-08-18 19:22:24,066 [WARNING]  * Debugger is active!
+2022-08-18 19:22:24,066 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:32:54,358 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+2022-08-18 19:32:54,420 [INFO]  * Restarting with stat
+2022-08-18 19:32:55,038 [WARNING]  * Debugger is active!
+2022-08-18 19:32:55,046 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:43:50,460 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\posts_dao_test.py', reloading
+2022-08-18 19:43:50,538 [INFO]  * Restarting with stat
+2022-08-18 19:43:51,193 [WARNING]  * Debugger is active!
+2022-08-18 19:43:51,209 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:45:46,564 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-18 19:45:46,564 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-18 19:45:46,564 [INFO]  * Restarting with stat
+2022-08-18 19:45:47,126 [WARNING]  * Debugger is active!
+2022-08-18 19:45:47,126 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:52:02,019 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\posts_dao_test.py', reloading
+2022-08-18 19:52:02,073 [INFO]  * Restarting with stat
+2022-08-18 19:52:02,970 [WARNING]  * Debugger is active!
+2022-08-18 19:52:02,978 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:55:06,547 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\posts_dao_test.py', reloading
+2022-08-18 19:55:06,624 [INFO]  * Restarting with stat
+2022-08-18 19:55:07,203 [WARNING]  * Debugger is active!
+2022-08-18 19:55:07,210 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:57:41,590 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-18 19:57:41,590 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-18 19:57:41,594 [INFO]  * Restarting with stat
+2022-08-18 19:57:42,139 [WARNING]  * Debugger is active!
+2022-08-18 19:57:42,146 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 19:57:49,831 [INFO] 127.0.0.1 - - [18/Aug/2022 19:57:49] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-18 19:57:49,873 [INFO] 127.0.0.1 - - [18/Aug/2022 19:57:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-18 19:57:49,874 [INFO] 127.0.0.1 - - [18/Aug/2022 19:57:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-18 19:57:50,259 [INFO] 127.0.0.1 - - [18/Aug/2022 19:57:50] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-18 20:00:15,913 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\constanse.py', reloading
+2022-08-18 20:00:15,960 [INFO]  * Restarting with stat
+2022-08-18 20:00:16,600 [WARNING]  * Debugger is active!
+2022-08-18 20:00:16,600 [INFO]  * Debugger PIN: 119-144-646
+2022-08-18 20:01:17,462 [INFO]  * Detected change in 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\constanse.py', reloading
+2022-08-18 20:01:17,518 [INFO]  * Restarting with stat
+2022-08-19 18:21:17,434 [INFO] Request  for a list of posts
+2022-08-19 18:21:17,450 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\api_endpoints\api_views.py", line 16, in get_api_posts
+    result = posts_dao_api.get_all()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\posts_dao.py", line 11, in get_all
+    with open(self.path_posts, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\data\\data.json'
+2022-08-19 18:21:25,474 [INFO] Request  for a list of posts
+2022-08-19 18:21:25,474 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\api_endpoints\api_views.py", line 16, in get_api_posts
+    result = posts_dao_api.get_all()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\posts_dao.py", line 11, in get_all
+    with open(self.path_posts, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Евгений\\PycharmProjects\\coursework2_source\\tests\\data\\data.json'
+2022-08-19 18:29:50,156 [INFO] Request  for a list of posts
+2022-08-19 18:29:50,157 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\api_endpoints\api_views.py", line 16, in get_api_posts
+    result = posts_dao_api.get_all()
+  File "C:\Users\Евгений\PycharmProjects\coursework2_source\posts_dao.py", line 11, in get_all
+    with open(self.path_posts, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '.\\data\\data.json'
+2022-08-19 18:33:26,956 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 18:33:26,956 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 18:33:26,972 [INFO]  * Restarting with stat
+2022-08-19 18:33:27,506 [WARNING]  * Debugger is active!
+2022-08-19 18:33:27,598 [INFO]  * Debugger PIN: 119-144-646
+2022-08-19 18:33:37,856 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:37] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:33:37,902 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:33:37,974 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:37,979 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:38,136 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-08-19 18:33:39,916 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:39] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:33:39,949 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:33:39,950 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:40,008 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:42,763 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:42] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 18:33:42,797 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:33:42,799 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:42] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:42,839 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:44,860 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:44] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-19 18:33:44,912 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:33:44,916 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:44] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:44,961 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:44] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:50,696 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:50] "GET / HTTP/1.1" 200 -
+2022-08-19 18:33:50,729 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:33:50,734 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:50] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:50,791 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:50] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:52,033 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:52] "GET / HTTP/1.1" 200 -
+2022-08-19 18:33:52,072 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:33:52,074 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:52,137 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:53,946 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:53] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 18:33:54,001 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:33:54,008 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:33:54,051 [INFO] 127.0.0.1 - - [19/Aug/2022 18:33:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:34:33,295 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 18:34:33,295 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 18:34:33,295 [INFO]  * Restarting with stat
+2022-08-19 18:34:33,903 [WARNING]  * Debugger is active!
+2022-08-19 18:34:33,903 [INFO]  * Debugger PIN: 119-144-646
+2022-08-19 18:34:59,560 [INFO] 127.0.0.1 - - [19/Aug/2022 18:34:59] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:34:59,718 [INFO] 127.0.0.1 - - [19/Aug/2022 18:34:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:34:59,736 [INFO] 127.0.0.1 - - [19/Aug/2022 18:34:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:34:59,806 [INFO] 127.0.0.1 - - [19/Aug/2022 18:34:59] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:35:00,864 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:00] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 18:35:00,905 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:35:00,918 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:35:00,955 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:35:12,477 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:12] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:35:12,518 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:35:12,521 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:35:12,616 [INFO] 127.0.0.1 - - [19/Aug/2022 18:35:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:35:59,524 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 18:35:59,524 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 18:36:01,192 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:01] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:36:01,227 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:01] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:36:01,232 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:01] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:01,281 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:01] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:02,110 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:02] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 18:36:02,194 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:36:02,208 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:02,235 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:03,095 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:03] "GET / HTTP/1.1" 200 -
+2022-08-19 18:36:03,135 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:36:03,135 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:03,198 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:03] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:04,045 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "GET / HTTP/1.1" 200 -
+2022-08-19 18:36:04,083 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:36:04,084 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:04,141 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:04,860 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:36:04,912 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:04,915 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:36:04,955 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:07,602 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:07] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 18:36:07,647 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:36:07,651 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:36:07,701 [INFO] 127.0.0.1 - - [19/Aug/2022 18:36:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:37:34,995 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 18:37:34,995 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 18:37:54,242 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:54] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:37:54,281 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:37:54,283 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:37:54,328 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:37:55,892 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:55] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 18:37:55,937 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:55] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:37:55,942 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:55] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:37:55,989 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:55] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:37:56,783 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:56] "GET / HTTP/1.1" 200 -
+2022-08-19 18:37:56,819 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:37:56,823 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:37:56,863 [INFO] 127.0.0.1 - - [19/Aug/2022 18:37:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:41:46,605 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 18:41:46,605 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 18:42:01,143 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 18:42:01,143 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 18:42:06,262 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:06] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:42:06,297 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:42:06,304 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:42:06,370 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:42:07,151 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:07] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 18:42:07,188 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:42:07,189 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 18:42:07,229 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:42:16,810 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:16] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 18:42:16,855 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 18:42:16,880 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 18:42:16,899 [INFO] 127.0.0.1 - - [19/Aug/2022 18:42:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:01:30,959 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:30] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:01:30,993 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:01:31,071 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:01:31,075 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:01:32,275 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:32] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 19:01:32,321 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:01:32,325 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:01:32,376 [INFO] 127.0.0.1 - - [19/Aug/2022 19:01:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:46:18,992 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 19:46:18,993 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 19:46:28,364 [INFO] 127.0.0.1 - - [19/Aug/2022 19:46:28] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:46:28,415 [INFO] 127.0.0.1 - - [19/Aug/2022 19:46:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:46:28,427 [INFO] 127.0.0.1 - - [19/Aug/2022 19:46:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:46:28,488 [INFO] 127.0.0.1 - - [19/Aug/2022 19:46:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:01,344 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:01] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:47:01,385 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:01] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:47:01,389 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:01] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:01,445 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:01] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:02,556 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:02] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 19:47:02,603 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:47:02,614 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:02,632 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:04,000 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:04] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-19 19:47:04,038 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:47:04,040 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:04,095 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:32,774 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:32] "GET /posts/5 HTTP/1.1" 200 -
+2022-08-19 19:47:32,828 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:47:32,830 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:32,877 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:33,766 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:33] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 19:47:33,811 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:47:33,815 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:47:33,863 [INFO] 127.0.0.1 - - [19/Aug/2022 19:47:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:04,782 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:04] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:49:04,826 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:49:04,831 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:04,875 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:05,876 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:05] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 19:49:05,929 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:49:05,943 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:05,975 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:11,296 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:11] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:49:11,378 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:49:11,383 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:11,400 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:12,229 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:12] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:49:12,264 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:49:12,265 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:12,327 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:43,400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-08-19 19:49:43,400 [INFO] [33mPress CTRL+C to quit[0m
+2022-08-19 19:49:45,056 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:45] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:49:45,129 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:49:45,149 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:45,166 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:46,519 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:46] "GET /users/leo HTTP/1.1" 200 -
+2022-08-19 19:49:46,563 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:46] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:49:46,571 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:46] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:46,593 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:46] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:47,367 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:47] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-19 19:49:47,407 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-19 19:49:47,409 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-19 19:49:47,472 [INFO] 127.0.0.1 - - [19/Aug/2022 19:49:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
